@@ -1,5 +1,6 @@
 
 import 'package:app/feature/home/presentattion/views/login_view.dart';
+import 'package:app/feature/home/presentattion/widgets/f.dart';
 
 import 'package:flutter/material.dart';
 
@@ -16,9 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'appUser',
       
-      home: LoginView(
-        
-      ),
+      home: Homee()
     );
   }
 }
